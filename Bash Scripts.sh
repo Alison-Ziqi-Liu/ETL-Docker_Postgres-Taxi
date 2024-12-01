@@ -21,13 +21,12 @@ docker run -it \
 
 docker build -t taxi_ingest:v001 .
 
-
 docker run -it \
-    --network=pg-network \
+    --network=2_docker_sql_default \
     taxi_ingest:v001 \
         --user=root \
         --password=root \
-        --host=pg-database \
+        --host=pgdatabase \
         --port=5432 \
         --db=ny_taxi \
         --tb=yellow_taxi_trips \
