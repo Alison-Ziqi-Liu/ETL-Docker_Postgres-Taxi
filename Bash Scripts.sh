@@ -1,3 +1,5 @@
+'''replaced with Docker Compose
+
 docker network create pg-network
 
 docker run -it \
@@ -9,7 +11,6 @@ docker run -it \
     --name pg-database\
     postgres:13
 
-
 docker run -it \
     -e PGADMIN_DEFAULT_EMAIL="admin@admin.com" \
     -e PGADMIN_DEFAULT_PASSWORD="root" \
@@ -18,6 +19,8 @@ docker run -it \
     --name pgadmin\
     dpage/pgadmin4
 
+'''
+docker compose up -d
 
 docker build -t taxi_ingest:v001 .
 
