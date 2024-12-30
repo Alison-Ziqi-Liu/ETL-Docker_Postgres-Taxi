@@ -1,6 +1,17 @@
 
 version: 2
 
+
+sources:
+  - name: staging
+    database: liquid-journal-443423-b9 
+    schema: ny_trips_data 
+
+    tables:
+      - name: green_trips_data
+      - name: yellow_trips_data
+
+      
 models:
     - name: my_first_dbt_model
       description: "A starter dbt model"
