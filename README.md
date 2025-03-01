@@ -1,2 +1,8 @@
-# Docker-Postgres-Pipeline
-This is a data pipeline that brings New York Taxi Data to PostgresSQL, enabling Docker to mitigate package incompatibilities. Work in progress, keep updated;)
+# New York Taxi Pipelines
+
+This repo contains several data pipelines that brings New York Taxi Data to different databases, enabling Docker Compose to mitigate package incompatibilities. 
+
+Currently available:
+1. PostgresSQL
+2. GCP
+More to come, keep updated;)
