@@ -4,5 +4,6 @@ This repo contains several data pipelines that brings New York Taxi Data to diff
 
 Currently available:
 1. PostgresSQL
-2. GCP
+
+   
 More to come, keep updated;)
